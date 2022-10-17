@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Border Radius</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #radius {
+        background: purple;
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+
+        border-radius: 25px 50px 100px 5px;
+
+        box-shadow: 10px -10px 10px blue;
+
+        box-shadow: 10px -10px 10px blue, 11px -10px 11px red,
+          12px -10px 12px black;
+      }
+
+      #radius2 {
+        background: rgb(0, 128, 58);
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+
+        border-radius: 25px 50px 100px 5px;
+
+        box-shadow: 10px -10px 10px blue;
+
+        box-shadow: 10px -10px 10px rgb(255, 0, 157),
+          11px -10px 11px rgb(38, 0, 255), 12px -10px 12px rgb(170, 147, 15);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="radius"></div>
+    <div id="radius2"></div>
+  </body>
+</html>
