@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+
+        background-color: purple;
+
+        transition-property: width, height;
+        transition-duration: 0.3s, 0.8s;
+        transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition-delay: 300ms;
+      }
+      div:hover {
+        width: 350px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+site FONT-AWESOME
+
+Na próxima aula vou mostrar um site chamado font awesome para incluir ícones em nossas páginas, contudo, este serviço sofreu uma pequena alteração na forma como devemos fazer para utilizar suas fontes.
+
+
+
+Aqui está o passo-a-passo para você utilizar esse serviço. Guardo-o contigo ao acompanhar a próxima aula.
+
+
+
+1. acesse https://fontawesome.com/
+
+2. clique em start for free
+
+3. procure o botão download. clique. vai abrir essa página https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+Nessa página há a descrição de como usar o font-awesome na sua pagina
+
+
+
+Nesse link há um guia de como utilizar o serviço: https://fontawesome.com/docs/web/setup/host-yourself/webfonts
